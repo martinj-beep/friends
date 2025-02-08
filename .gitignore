@@ -1,0 +1,38 @@
+# Logs, temp files, and storage
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+
+# Ignore secret credentials and environment variables
+/config/master.key
+/config/credentials.yml.enc
+/.env
+
+# Ignore database files
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/schema.rb
+
+# Ignore dependencies
+/.bundle
+/vendor/bundle/
+/node_modules/
+
+# Ignore compiled assets
+/public/assets
+/public/packs
+/public/uploads
+/public/system
+/public/sprockets-manifest-*
+
+# Ignore system and editor-specific files
+.DS_Store
+.vscode/
+.idea/
+.byebug_history
+
+# Ignore test coverage reports
+/coverage/
